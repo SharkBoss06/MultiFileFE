@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản Lý File Tải Xuống</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>FileManager</h2>
+      <ul>
+        <li class="active">Quản Lý File Tải Xuống</li>
+        <li>Upload File</li>
+        <li>Thống Kê</li>
+        <li>Cài Đặt</li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <header class="main-header">
+        <h1>Danh sách file tải xuống</h1>
+        <div class="actions">
+          <button class="btn add">+ Thêm file</button>
+          <button class="btn delete">Xóa đã chọn</button>
+          <button class="btn import">Import</button>
+        </div>
+      </header>
+      <section class="filters">
+        <input type="text" placeholder="Tìm kiếm tên file...">
+        <select>
+          <option>-- Chọn loại file --</option>
+        </select>
+        <select>
+          <option>-- Chọn tháng --</option>
+        </select>
+        <select>
+          <option>-- Chọn năm --</option>
+        </select>
+      </section>
+      <section class="file-table">
+        <table>
+          <thead>
+            <tr>
+              <th><input type="checkbox"></th>
+              <th>#</th>
+              <th>Tên File</th>
+              <th>Kích thước</th>
+              <th>Loại File</th>
+              <th>Ngày Tải Lên</th>
+              <th>Thao tác</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>1</td>
+              <td>report.pdf</td>
+              <td>1.2 MB</td>
+              <td>PDF</td>
+              <td>20/03/2025</td>
+              <td>
+                <button class="btn download">Tải xuống</button>
+                <button class="btn delete">Xóa</button>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>2</td>
+              <td>data.xlsx</td>
+              <td>950 KB</td>
+              <td>Excel</td>
+              <td>19/03/2025</td>
+              <td>
+                <button class="btn download">Tải xuống</button>
+                <button class="btn delete">Xóa</button>
+              </td>
+            </tr>
+            <!-- More rows here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
