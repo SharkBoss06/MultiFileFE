@@ -21,58 +21,64 @@ body {
     top: 0 !important;
     position: relative;
 }
-.container{
+
+.container {
     display: flex;
 }
+
 .sidebar {
     background-color: #343a40;
     color: #fff;
     width: 250px;
     height: 100vh;
     padding: 20px;
-  }
-  
-  .sidebar .logo {
+}
+
+.sidebar .logo {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
-  }
-  
-  .sidebar ul {
+}
+
+.sidebar ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .sidebar ul li {
+}
+
+.sidebar ul li {
     margin-bottom: 20px;
     font-size: 16px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  
-  .sidebar ul li:hover {
+}
+
+.sidebar ul li:hover {
     color: #ffc107;
-  }
-  .main-content{
+}
+
+.main-content {
     padding-left: 10px;
-  }
-  .content {
+}
+
+.content {
     background-color: #ffffff;
     padding: 30px;
     flex: 1;
-  }
-  
-  .table th, .table td {
+}
+
+.table th,
+.table td {
     vertical-align: middle;
     text-align: center;
-  }
-  
-  .table td button, .table td a {
+}
+
+.table td button,
+.table td a {
     margin: 0 4px;
-  }
-  
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -137,3 +143,5 @@ table ::after {
     border-width: 1px;
     border-style: revert-layer;
 }
+
+.content {}
